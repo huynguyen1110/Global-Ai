@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mc-tbl {
+  --tw-bg-opacity: 1 !important;
+  --easy-table-header-font-color: black;
+  --easy-table-header-background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
+  /* --easy-table-body-row-font-size: 16px; */
+  --easy-table-header-font-size: 0.75rem;
+  --easy-table-body-item-padding: 1rem;
+  --easy-table-header-item-padding: 1rem;
+}
+
+.mc-tbl .vue3-easy-data-table__main {
+  overflow: unset !important;
+}
+
+.mc-tbl th {
+  text-transform: uppercase;
+}
+
+/* .mc-tbl span.header {
+    justify-content: center !important;
+} */

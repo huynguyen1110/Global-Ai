@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\GlobalAI.CoreServices\GlobalAI.CoreRepositories\GlobalAI.CoreRepositories.csproj" />
+    <ProjectReference Include="..\..\GlobalAI.DemoServices\GlobalAI.DemoDomain\GlobalAI.DemoDomain.csproj" />
+    <ProjectReference Include="..\GlobalAI.ProductEntities\GlobalAI.ProductEntities.csproj" />
+    <ProjectReference Include="..\GlobalAI.ProductRepositories\GlobalAI.ProductRepositories.csproj" />
+  </ItemGroup>
+
+</Project>

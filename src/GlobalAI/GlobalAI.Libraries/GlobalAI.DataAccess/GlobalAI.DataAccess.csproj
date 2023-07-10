@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\GlobalAI.CoreServices\GlobalAI.CoreEntities\GlobalAI.CoreEntities.csproj" />
+    <ProjectReference Include="..\..\GlobalAI.DemoServices\GlobalAI.DemoEntities\GlobalAI.DemoEntities.csproj" />
+    <ProjectReference Include="..\..\GlobalAI.ProductServices\GlobalAI.ProductEntities\GlobalAI.ProductEntities.csproj" />
+  </ItemGroup>
+
+</Project>

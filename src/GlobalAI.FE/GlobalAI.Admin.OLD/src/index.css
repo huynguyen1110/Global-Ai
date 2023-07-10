@@ -1,0 +1,22 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mc-tbl {
+    --tw-bg-opacity: 1 !important;
+    --easy-table-header-font-color: white;
+    --easy-table-header-background-color: rgb(45 62 153 / var(--tw-bg-opacity));
+    --easy-table-body-row-font-size: 16px;
+    --easy-table-header-font-size: 16px;
+    --easy-table-body-item-padding: 10px 15px;
+    --easy-table-header-item-padding: 10px 15px;
+}
+
+.mc-tbl th {
+    text-transform: uppercase;
+}
+
+.mc-tbl span.header {
+    justify-content: center !important;
+}

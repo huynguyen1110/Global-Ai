@@ -1,0 +1,53 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "build:staging": "nuxt build --dotenv .env.staging",
+    "build:production": "nuxt build --dotenv .env.production",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.6.5",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.3.2",
+    "postcss": "^8.4.21",
+    "sass": "^1.60.0",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "@coders-tm/vue-number-format": "^3.27.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@headlessui/vue": "^1.7.13",
+    "@microsoft/signalr": "^7.0.5",
+    "@pinia/nuxt": "^0.4.7",
+    "@popperjs/core": "^2.9.1",
+    "@vueup/vue-quill": "^1.1.1",
+    "axios": "^1.3.4",
+    "daisyui": "^2.51.5",
+    "flowbite": "^1.6.5",
+    "flowbite-vue": "^0.0.10",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.4",
+    "pinia": "^2.0.33",
+    "quill-html-edit-button": "^2.2.12",
+    "quill-image-resize-vue": "^1.0.4",
+    "quill-image-uploader": "^1.2.4",
+    "sweetalert2": "^11.7.5",
+    "vee-validate": "^4.8.4",
+    "vue-final-modal": "^3.4.11",
+    "vue3-easy-data-table": "^1.5.42",
+    "vue3-toastify": "^0.1.6",
+    "vuejs-paginate-next": "^1.0.2",
+    "yup": "^1.0.2"
+  }
+}

@@ -168,5 +168,3 @@ https://davecallan.com/running-multiple-projects-visual-studio/
     - `message commit` viết có ý nghĩa theo convetion sau:
         - Bug: `[Bug] nguồn bug từ đâu - nội dung bug được fix`
         - Tính năng mới: `Mô tả tính năng`
-#   G l o b a l A I  
- 

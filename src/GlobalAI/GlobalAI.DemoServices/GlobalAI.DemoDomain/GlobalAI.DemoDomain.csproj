@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\GlobalAI.Libraries\GlobalAI.DataAccess\GlobalAI.DataAccess.csproj" />
+    <ProjectReference Include="..\..\GlobalAI.Libraries\GlobalAI.Entites\GlobalAI.Entites.csproj" />
+    <ProjectReference Include="..\GlobalAI.DemoEntities\GlobalAI.DemoEntities.csproj" />
+    <ProjectReference Include="..\GlobalAI.DemoRepositories\GlobalAI.DemoRepositories.csproj" />
+  </ItemGroup>
+
+</Project>
